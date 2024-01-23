@@ -1,0 +1,53 @@
+*{
+   background-color: rgb(213, 164, 99);
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(41, 40, 40);
+    text-align: top center;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+}
+
+.digit {
+    font-size: 150px;
+    color: #eeeaea;
+}
+
+.txt {
+    font-size: 30px;
+    color: #f1eded;
+}
+
+#buttons {
+    margin-top: 50px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 15px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    font-weight: 10000;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
